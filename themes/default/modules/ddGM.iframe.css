@@ -1,0 +1,6 @@
+/* ddGM THEME: Default */
+/* IFRAME TYPE */
+
+.ddGM-item[type="iframe"] {
+	background: #000 url(../images/loading.gif) center center no-repeat;
+}

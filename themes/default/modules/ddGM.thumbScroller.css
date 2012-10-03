@@ -1,0 +1,114 @@
+/* ddGM THEME: Default */
+/* THUMB SCROLLER */
+
+/* Main Wrappers */
+.ddGM-thumbScroller-main {
+	width: 100%;
+	height: 60px;
+	background: #000;
+	background: rgba(0,0,0,0.65);
+	-pie-background: rgba(0,0,0,0.65);
+}
+
+.ddGM-thumbScroller-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+/* Arrows */
+.ddGM-thumbScroller-arrow-left,
+.ddGM-thumbScroller-arrow-right {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 30px;
+	padding: 15px 10px;
+	float: left;
+}
+
+.ddGM-thumbScroller-arrow-right {
+	float: right;
+}
+
+.ddGM-thumbScroller-arrow-left div {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: solid 0 transparent;
+	border-bottom: solid 0 transparent;
+	border-left: solid 0 transparent;
+	border-right: solid 0 #aaa;
+}
+
+.ddGM-thumbScroller-arrow-right div {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: solid 0 transparent;
+	border-bottom: solid 0 transparent;
+	border-right: solid 0 transparent;
+	border-left: solid 0 #aaa;
+}
+
+.ddGM-thumbScroller-arrow-left:hover,
+.ddGM-thumbScroller-arrow-right:hover {
+	cursor: pointer;
+}
+
+.ddGM-thumbScroller-arrow-left:hover div,
+.ddGM-thumbScroller-arrow-right:hover div {
+	border-right-color: #fff;
+	border-left-color: #fff;
+}
+
+.ddGM-thumbScroller-arrow-right + .ddGM-thumbScroller-wrapper {
+	margin: 0 40px;
+}
+
+
+/* Thumbnails */
+.ddGM-thumb-wrapper {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	float: left;
+	margin: 4px;
+	border: solid 1px #222;
+}
+
+.ddGM-thumb-wrapper.ddGM-type-youtube .ddGM-thumb::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/playbutton.png) center center no-repeat;
+}
+
+.ddGM-thumb {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-size: cover !important;
+	-moz-background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+.ddGM-thumb-wrapper.selected,
+.ddGM-thumb-wrapper.selected:hover {
+	box-shadow: 0 0 10px #fff;
+	border-color: #fff;
+}
+
+.ddGM-thumb-wrapper:hover {
+	box-shadow: 0 0 7px #aaa;
+	border-color: #aaa;
+}
+
+.ddGM-thumb-wrapper.selected .ddGM-thumb {
+	cursor: default;
+}

@@ -1,0 +1,130 @@
+/* /////////////////////////////////////////////////////
+ *
+ * TPWD Theme for ddGM M
+ * Author: Darren Doyle
+ *
+//////////////////////////////////////////////////////*/
+
+
+#tpwdRotator {
+	width: 600px;
+	background: #fff;
+	box-shadow: 0 3px 7px rgba(0,0,0,.5);
+	*border: solid 1px #ddd;
+	padding: 10px;
+}
+
+#tpwdRotator .rotator-content {
+	width: 600px;
+	height: 335px;
+}
+
+#tpwdRotator .rotator-captions {
+	margin-top: 10px;
+	font-size: 1.1em;
+}
+
+/* time bar */
+.ddGM-timeBar-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.ddGM-timeBar {
+	position: relative;
+	top: 2px;
+	width: 0;
+	height: 1px;
+	background: #aaa;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* DOT NAVIGATION */
+
+#tpwdRotator .rotator-dotnav {
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+.ddGM-dotNav {
+	text-align: right;
+}
+
+.ddGM-dot {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	width: 13px;
+	height: 13px;
+	margin-left: 5px;
+	background: #d0d1d3 url(images/tpwd-rotator-dotnav.jpg) bottom left repeat-x;
+}
+
+.ddGM-dot:hover {
+	background: #111;
+}
+
+.ddGM-dot.selected,
+.ddGM-dot.selected:hover {
+	background: #000;
+}
+
+
+/* STAGE */
+.ddGM-stage-wrapper {
+	background: #888;
+	background: -webkit-linear-gradient(#666, #aaa);
+	background: -moz-linear-gradient(top,  #666,  #aaa);
+	background: -o-linear-gradient(#666, #aaa);
+	background: linear-gradient(#666, #aaa);
+	-pie-background: linear-gradient(#666, #aaa);
+	box-shadow: inset 0 0 20px #444;
+}
+
+.ddGM-main.loading .ddGM-stage {
+	background: url(images/loading.gif) center center no-repeat;
+}
+
+.ddGM-stage {}
+
+/* ALL STAGE ITEMS */
+.ddGM-item {
+	box-shadow: 0 7px 7px #000;
+}
+
+
+/* CONTROLLER */
+.ddGM-control {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	#tpwdRotator {
+		width: 333px;
+		padding: 5px;
+		margin: 0 auto;
+	}
+	
+	#tpwdRotator .rotator-content {
+		width: 333px;
+		height: 186px;
+	}
+	
+	#tpwdRotator .rotator-captions {
+		font-size: .8em;
+	}
+	
+}

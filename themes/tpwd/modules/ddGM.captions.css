@@ -1,0 +1,17 @@
+/* ddGM THEME: Default */
+/* CAPTIONS MODULE */
+
+.ddGM-caption-wrapper {
+	position: relative;
+	background: #000;
+	background: rgba(0,0,0,0.65);
+	-pie-background: rgba(0,0,0,0.65);
+}	
+	
+.ddGM-caption {
+	display: block;
+	zoom: 1;
+	padding: 7px;
+	color: #ddd;
+	text-align: left;
+}

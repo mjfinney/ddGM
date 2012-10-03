@@ -1,0 +1,51 @@
+/* /////////////////////////////////////////////////////
+ *
+ * Default Theme for ddGM
+ * Author: Darren Doyle
+ * http://inventurous.net/ddGM
+ *
+//////////////////////////////////////////////////////*/
+
+
+@import url(modules/ddGM.arrows.css);
+@import url(modules/ddGM.captions.css);
+@import url(modules/ddGM.controlTab.css);
+@import url(modules/ddGM.iframe.css);
+@import url(modules/ddGM.dotNav.css);
+@import url(modules/ddGM.thumbScroller.css);
+@import url(modules/ddGM.timeBar.css);
+
+/* OUTER GALLERY WRAPPER */
+.ddGM-main {}
+
+
+/* STAGE */
+.ddGM-stage-wrapper {
+	background: #888;
+	background: -webkit-linear-gradient(#666, #aaa);
+	background: -moz-linear-gradient(top,  #666,  #aaa);
+	background: -o-linear-gradient(#666, #aaa);
+	background: linear-gradient(#666, #aaa);
+	-pie-background: linear-gradient(#666, #aaa);
+	box-shadow: inset 0 0 20px #444;
+}
+
+.ddGM-main.loading .ddGM-stage {
+	background: url(images/loading.gif) center center no-repeat;
+}
+
+.ddGM-stage {}
+
+/* ALL STAGE ITEMS */
+.ddGM-item {
+	box-shadow: 0 7px 7px #000;
+}
+
+
+/* CONTROLLER */
+.ddGM-control {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+}

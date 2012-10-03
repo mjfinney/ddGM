@@ -1,0 +1,63 @@
+/* ddGM THEME: Default */
+/* ARROWS MODULE */
+
+.ddGM-arrow-wrap {
+	width: 30px;
+	height: 180px;
+}
+
+.ddGM-arrow-wrap-left {
+	left: 0;
+}
+
+.ddGM-arrow-wrap-right {
+	right: 0;
+}
+
+.ddGM-arrow {
+	position: absolute;
+	top: 5px;
+	background: #000;
+	background: rgba(0,0,0,0.5);
+	-pie-background: rgba(0,0,0,0.5);
+	width: 25px;
+	height: 170px;
+}
+
+.ddGM-arrow:hover {
+	background: #42BDFF;
+	-pie-background: #42BDFF;
+	box-shadow: 0 0 5px #fff;
+}
+
+.ddGM-arrow span {
+	color: #fff; /* IE Fix */
+}
+
+.ddGM-arrow-left {
+	right: 5px;
+	border-radius: 0 5px 5px 0;
+}
+
+.ddGM-arrow-right {
+	left: 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+.ddGM-arrow-left span {
+	border-right-color: #fff; /* css arrow color */
+	border-right-color: rgba(255, 255, 255, 0.5);
+}
+
+.ddGM-arrow-right span {
+	border-left-color: #fff; /* css arrow color */
+	border-left-color: rgba(255, 255, 255, 0.5);
+}
+
+.ddGM-arrow-left:hover span {
+	border-right-color: #fff; /* css arrow color */
+}
+
+.ddGM-arrow-right:hover span {
+	border-left-color: #fff; /* css arrow color */
+}
