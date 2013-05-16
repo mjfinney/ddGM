@@ -234,6 +234,7 @@
 			// hide empty captions
 			if ( hide ) {
 				window.ddGM.modules[moduleName].hideCap.call(dd, null);
+			    if (dfd!=null) { dfd.resolve(); };
 				return;
 			};
 			
