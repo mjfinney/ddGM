@@ -200,7 +200,7 @@
 			var dd = this;
 			
 			// build content
-			obj.content += '<div data-type="'+typeName+'" class="ddGM-item '+obj.id+'" style="position:absolute;width:100%;overflow:auto;top:0;left:0;">';
+			obj.content += '<div data-type="'+typeName+'" class="ddGM-item '+obj.id+'" style="position:absolute;width:100%;height:100%;top:0;left:0;">';
 			obj.content += 	'<div id="'+obj.id+'-youtube"></div>';
 			obj.content += '</div>';
 			
