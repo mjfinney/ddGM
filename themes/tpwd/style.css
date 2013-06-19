@@ -6,7 +6,7 @@
 //////////////////////////////////////////////////////*/
 
 
-#tpwdRotator {
+.tpwdRotator {
 	width: 600px;
 	background: #fff;
 	box-shadow: 0 3px 7px rgba(0,0,0,.5);
@@ -14,12 +14,12 @@
 	padding: 10px;
 }
 
-#tpwdRotator .rotator-content {
+.tpwdRotator .rotator-content {
 	width: 600px;
 	height: 335px;
 }
 
-#tpwdRotator .rotator-captions {
+.tpwdRotator .rotator-captions {
 	margin-top: 10px;
 	font-size: 1.1em;
 }
@@ -49,7 +49,7 @@
 
 /* DOT NAVIGATION */
 
-#tpwdRotator .rotator-dotnav {
+.tpwdRotator .rotator-dotnav {
 	float: right;
 	margin: 10px 0 0 10px;
 }
@@ -112,18 +112,18 @@
 
 @media screen and (max-width: 767px) {
 	
-	#tpwdRotator {
+	.tpwdRotator {
 		width: 333px;
 		padding: 5px;
 		margin: 0 auto;
 	}
 	
-	#tpwdRotator .rotator-content {
+	.tpwdRotator .rotator-content {
 		width: 333px;
 		height: 186px;
 	}
 	
-	#tpwdRotator .rotator-captions {
+	.tpwdRotator .rotator-captions {
 		font-size: .8em;
 	}
 	
